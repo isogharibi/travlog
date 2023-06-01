@@ -52,6 +52,9 @@ main {
 .detsils-link {
     display: none;
 }
+.hero-img {
+    display: none;
+}
 @media only screen and (min-width: 900px) {
     main {
         max-width: 900px;
@@ -116,5 +119,11 @@ main {
         height: 30px;
         margin-top: 15px;
         font-size: 15px;
+    }
+    .hero-img {
+        display: flex;
+    }
+    .group-100 {
+        display: none;
     }
 }
